@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap');
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+body{
+    background-color: white;
+    color: black;
+    /* font: normal 16px 'Phudu', cursive; */
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a {
+color: black;
+text-decoration: none;
+
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+/* a:visited{ */
+    /* color: gray; */
+/* } */
+
+.rauf{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+.info {
+    color: #000000;
+    margin-top: 0%;
+    margin-left: 0%;
+   
+    margin-right: 0%;
+    
+    font-style: italic;
+    font-weight: 100;
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 10px; */
+    
+
+}
+/* Box model  */
+.container{
+    max-width: 750px;
+    margin: auto;    
+    padding-top: 30px;
+
+}
+    /* .social{
+        background-color: blue;
+    padding: 15px;
+    border: 5px solid grey;
+    margin: 20px;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-left-color: blue;
+    border-right-color: blue;
+    border-bottom-width: 7px;
+
+} */
+/* .box-model > div {
+        float: left;
+    background-color: #000000;
+    height: 200px;
+    width: 25%;
+    border: 4px solid blue;
+    box-sizing: border-box;
+
+} */
+p {
+    margin: 0px;
+}
+
+.bg-yellow {
+    background: rgb(139, 21, 21);
+}
+/* .bg-yellow h2{
+    color: white;
+} */
+
+
+
+
+.bg-green {
+    background: rgb(139, 21, 21);
+}
+
+/* .bg-red {
+    background: red;
+} */
+
+
+
+.card{
+    padding: 15px 20px;
+    
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+
+
+
+
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info{
+        display: block;
+        text-align: center;
+
+    }
+
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+
+}
+
+.table {
+    width: 100%;
+    
+}
+
+.table td{
+    padding-bottom: 10px;
+
+}
+
+.table td:nth-child(2), .table td:nth-child(3), .table td:nth-child(1){
+    color: white;
+}
+
+.bg-green h2{
+    color: white;
+}
+
+.contact h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: gray;
+
+}
+
+.form-group input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    /* background: transparent; */
+    border-bottom: 1px solid gray;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    
+
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 5%;
+
+}.btn{
+    background: rgb(139, 21, 21);
+    padding: 15px 20 px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+
+
+}
+
+btn:hover{
+    opacity: 0.5;
+
+}
+
+/* POSITION */
+
+/* .position{
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+
+}
+
+.box{
+
+    width: 50px;
+    height: 50px;
+    background: black;
+} */
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+}
+
